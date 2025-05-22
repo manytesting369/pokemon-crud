@@ -1,51 +1,52 @@
 # Pokémon CRUD Web
 
-Este es un proyecto de frontend desarrollado con React.js que implementa un CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar información de Pokémon.
+Este proyecto es una aplicación web para gestionar un CRUD de Pokémons, desarrollada con las siguientes tecnologías:
+
+- **React JS** (con Vite)
+- **TypeScript**
+- **Tailwind CSS**
+- **React Router DOM**
 
 ## Características
 
-- **Crear**: Agregar nuevos Pokémon al sistema.
-- **Leer**: Visualizar una lista de Pokémon con sus detalles.
-- **Actualizar**: Editar la información de un Pokémon existente.
-- **Eliminar**: Eliminar Pokémon del sistema.
-
-## Tecnologías Utilizadas
-
-- **React.js**: Biblioteca principal para la construcción de la interfaz de usuario.
-- **Vite**: Herramienta de construcción rápida para proyectos web modernos.
-- **React Router DOM**: Para la gestión de rutas en la aplicación.
-- **CSS**: Para el diseño y estilos.
-- **JavaScript**: Lenguaje de programación principal.
-- **API REST**: Para la gestión de datos (si aplica).
+- Listado de Pokémons
+- Crear, leer, actualizar y eliminar Pokémons
+- Navegación entre vistas usando rutas
 
 ## Instalación
 
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/pokemon-crud-web.git
-   ```
-2. Navega al directorio del proyecto:
-   ```bash
-   cd pokemon-crud-web
-   ```
-3. Instala las dependencias:
-   ```bash
-   npm install
-   ```
-4. Inicia el servidor de desarrollo:
-   ```bash
-   npm start
-   ```
+```bash
+git clone https://github.com/tu-usuario/pokemon-crud-web.git
+cd pokemon-crud-web
+npm install
+npm run dev
+```
 
-## Uso
+## Scripts disponibles
 
-1. Abre tu navegador y ve a `http://localhost:3000`.
-2. Interactúa con la aplicación para gestionar Pokémon.
+- `npm run dev` — Inicia el servidor de desarrollo
+- `npm run build` — Genera la build de producción
+- `npm run preview` — Previsualiza la build
 
-## Autor
+## Estructura del proyecto
 
-Este proyecto fue creado por **KevVilla**.
+```
+src/
+├── components/
+├── pages/
+├── routes/
+├── App.tsx
+├── main.tsx
+```
+
+## Tecnologías usadas
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router DOM](https://reactrouter.com/)
 
 ## Licencia
 
-Este proyecto está bajo la licencia [MIT](LICENSE).
+MIT
